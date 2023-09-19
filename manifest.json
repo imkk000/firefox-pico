@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Pico",
+  "version": "0.0.1",
+  "description": "Everything always useful",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "64": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Pico",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
